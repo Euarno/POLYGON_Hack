@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Render">
+      <UniqueIdentifier>{0a7fc7c1-ac21-4326-9bcc-bc7ac4f0148f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render\ImGui">
+      <UniqueIdentifier>{46e09694-0cd6-4841-b8bd-209f1453c34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{f1f60d2e-1453-445e-81c0-12778127fdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Global">
+      <UniqueIdentifier>{5786d277-e278-4cf5-97ff-7426f9450dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Console">
+      <UniqueIdentifier>{78b38676-bf26-48fd-8c61-df98774ee821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DesignPattern">
+      <UniqueIdentifier>{3d3fcc3e-5ed5-41bf-993d-816d2eef6a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cheat">
+      <UniqueIdentifier>{0848fd68-d0f1-4ae5-97d1-92c9803d4e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cheat\Invoke">
+      <UniqueIdentifier>{ca2fb793-2103-4e2e-9d9f-eb45c088fc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Menu">
+      <UniqueIdentifier>{881f955f-6d9a-4e62-a1ba-598f7766145a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AddressManager">
+      <UniqueIdentifier>{9088c768-3789-4cb8-bad2-b31b4e291397}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Dx11HookRenderAdapter.cpp">
+      <Filter>Source\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ImGui\imgui.cpp">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ImGui\imgui_draw.cpp">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ImGui\imgui_impl_win32.cpp">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ImGui\imgui_tables.cpp">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ImGui\imgui_widgets.cpp">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\CheatMain.cpp">
+      <Filter>Source\Cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Render\Dx11HookRenderAdapter.h">
+      <Filter>Source\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderWrapper.h">
+      <Filter>Source\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imconfig.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imgui.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imgui_impl_dx11.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imgui_impl_win32.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imgui_internal.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imstb_rectpack.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imstb_textedit.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ImGui\imstb_truetype.h">
+      <Filter>Source\Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\CheatRenderContext.h">
+      <Filter>Source\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineMath.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalContext\GlobalContext.h">
+      <Filter>Source\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsoleContext.h">
+      <Filter>Source\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\SingleWrapper.h">
+      <Filter>Source\DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Invoke\Invoke.h">
+      <Filter>Source\Cheat\Invoke</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\CheatMain.h">
+      <Filter>Source\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\RenderLinker.h">
+      <Filter>Source\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Source\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\ObserverWrapper.h">
+      <Filter>Source\DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressManager\AddressManager.h">
+      <Filter>Source\AddressManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressManager\Offsets.h">
+      <Filter>Source\AddressManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
